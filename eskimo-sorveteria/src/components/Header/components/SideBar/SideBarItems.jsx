@@ -13,9 +13,9 @@ export default function SideBarItems({cart}) {
                     <h3 className="sidebarItem__name">{cart.name}</h3>
                     <p className="sidebarItem__price">{(cart.currentPrice * cart.quantity).toLocaleString("pt-BR", {style: "currency", currency: "BRL"})}</p>
                     <div className="sidebarItem__selector">
-                        <button className="sidebarItem__change" onClick={() => decreaseQuantity(cart.id)}>-</button>
+                        <button className="sidebarItem__change sidebarItem--minus" onClick={() => decreaseQuantity(cart.id)}>-</button>
                         <p className="sidebarItem__quantity">{cart.quantity}</p>
-                        <button className="sidebarItem__change" onClick={() => increaseQuantity(cart.id)}>+</button>
+                        <button className="sidebarItem__change sidebarItem--plus" onClick={() => increaseQuantity(cart.id)}>+</button>
                     </div>
                 </div>
                 <button className="sidebarItem__remove" onClick={() => removeFromCart(cart.id)}>Remover</button>

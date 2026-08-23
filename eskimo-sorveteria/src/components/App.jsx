@@ -6,10 +6,12 @@ import { products } from '../utils/products'
 import CurrentCartContext from '../contexts/CurrentCartContext'
 import About from './About/About'
 import Footer from './Footer/Footer'
+import Catalog from './Catalog/Catalog'
 function App() {
   const [selectedCategories, setSelectedCategories] = useState("Todos")
   const [sideBar, setSideBar] = useState(false)
-  const categories = ['Todos', ...new Set(products.map((product) => product.category))]
+  const categories = ['Todos', ...[...new Set(products.map((product) => product.category))].sort((a,b) => a.localeCompare(b, 'pt-BR'))]
+  console.log(categories)
   const [cart, setCart] = useState(() => {
     const savedCart = localStorage.getItem('cart');
 
@@ -129,13 +131,17 @@ function App() {
           <Header onOpenSideBar={handleOpenSideBar} onCloseSideBar={handleCloseSideBar} sideBar={sideBar} />
           <Routes>
             <Route path="/" element={
-              <Main 
+              <Main />
+            } />
+            <Route path="/about" element={<About />} />
+            <Route path='/catalog' element={
+              <Catalog
                 categories={categories} 
                 selectedCategories={selectedCategories} 
                 setSelectedCategories={setSelectedCategories}
-                />
-            } />
-            <Route path="/about" element={<About />} />
+              />}
+            />
+
           </Routes>
           <Footer />
         </div>

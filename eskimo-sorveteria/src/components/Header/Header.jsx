@@ -26,6 +26,7 @@ export default function Header(props) {
 
     return (
         <>
+            {isFixed && <header className='header__placeholder'></header>}
             <header ref={headerRef} className={`header ${isFixed ? "header--fixed" : ""}`}>
                 <div className='header__title-container'>
                     <img src={eskimoLogo} alt="Eskimo Sorveteria" className="header__logo" />
@@ -34,6 +35,9 @@ export default function Header(props) {
                 <div className='header__nav'>
                     <NavLink to="/" className={({ isActive }) => isActive ? 'header__nav-link header__nav-link--active' : 'header__nav-link'}>
                         Home
+                    </NavLink>
+                    <NavLink to="/catalog" className={({ isActive }) => isActive ? 'header__nav-link header__nav-link--active' : 'header__nav-link'}>
+                        Catálogo
                     </NavLink>
                     <NavLink to="/about" className={({ isActive }) => isActive ? 'header__nav-link header__nav-link--active' : 'header__nav-link'}>
                         Sobre

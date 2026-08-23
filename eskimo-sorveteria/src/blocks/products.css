@@ -2,11 +2,42 @@
     width: 100%;
     border-bottom: 2px solid #ED3136;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 .categories__title{
     color: #ED3136;
     margin-bottom: 12px;
     font-size: 40px;
+}
+.categories__selector{
+    margin-left: auto;
+}
+.categories__dropdown{
+    position: relative;
+    height: 40px;
+    width: 300px;
+}
+.categories__dropdown-button{
+    width: 300px;
+    text-align: start;
+    padding: 10px;
+    background-color: white;
+}
+.categories__dropdown-container{
+    position: absolute;
+    display: flex;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 0;
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform: translateY(38px);
+    width: 300px;
 }
 .product__list-container{
     display: flex;

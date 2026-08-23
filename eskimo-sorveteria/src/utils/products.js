@@ -15,7 +15,7 @@ export const products = [
   {
     id: 1,
     name: "Chocotine",
-    category: "Barra",
+    category: "Chocotine",
     price: 7,
     promotionalPrice: 0,
     image: getImage("barra/chocotine.png"),
@@ -94,7 +94,7 @@ export const products = [
   {
     id: 2,
     name: "Super Barrita",
-    category: "Barra",
+    category: "Super Barrita",
     price: 7,
     promotionalPrice: 0,
     image: getImage("barra/Super Barrita.png"),
