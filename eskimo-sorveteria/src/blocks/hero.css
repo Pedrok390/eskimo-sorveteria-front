@@ -1,0 +1,23 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.hero__container{
+    width: 45%;
+}
+.hero__image{
+    width: 45%;
+    height: auto;
+}
+.hero__title{
+    font-size: 55px;
+    color: #ed3136;
+    margin-bottom: 20px;
+}
+.hero__description{
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
