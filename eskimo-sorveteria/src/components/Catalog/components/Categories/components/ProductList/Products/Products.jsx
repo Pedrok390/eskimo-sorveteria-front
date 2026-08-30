@@ -1,11 +1,13 @@
 import { useContext } from 'react'
 import cartIcon from '../../../../../../../images/cart-icon.png'
 import CurrentCartContext from '../../../../../../../contexts/CurrentCartContext'
+import ProductCard from '../../../../Popup/components/ProductCard'
 
 export default function Product(props){
     const { addToCart } = useContext(CurrentCartContext)
-    const {product} = props
+    const {product, onOpen} = props
 
+    const productPopup = {children: <ProductCard addToCart={addToCart} product={product} />}
     return(
         <>
             <div className="product">
@@ -16,7 +18,7 @@ export default function Product(props){
                     <p className="product__name">{product.name}</p>
                     <div className='product__price-container'>
                         <p className="product__price">{product.price.toLocaleString("pt-BR", {style: "currency", currency: "BRL"})}</p>
-                        <button className='product__button' onClick={() => addToCart(product)}><img src={cartIcon} className='product__button-icon' alt='Icone de Carrinho'></img> Adicionar ao Carrinho</button>
+                        <button className='product__button' onClick={() => onOpen(productPopup)}><img src={cartIcon} className='product__button-icon' alt='Icone de Carrinho'></img> Adicionar ao Carrinho</button>
                 
                     </div>
                 </div>

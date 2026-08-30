@@ -20,6 +20,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("barra/chocotine.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
     nutrition: {
       portion: {
@@ -99,6 +101,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("barra/Super Barrita.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -180,6 +184,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("best-cup/bestcup dubai 3.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -259,6 +265,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("best-cup/bestcup_abacaxi.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -338,6 +346,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("best-cup/bestcup_doce de leite_02.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -417,6 +427,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("best-cup/bestcup_floresta negra_02.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -496,6 +508,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("best-cup/bestcup_pstache_02.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -577,6 +591,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("bom-bom-palito/PICOLE BRIGADEIRO.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -656,6 +672,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("bom-bom-palito/PICOLE SKIMO.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -737,6 +755,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("coberturas/calda-magica.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -816,6 +836,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("coberturas/caramelo-1kg.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -895,6 +917,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("coberturas/chocolate-1kg.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -974,6 +998,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("coberturas/chocolate-350g.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1053,6 +1079,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("coberturas/manga-1kg.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1132,6 +1160,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("coberturas/menta-1kg.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1211,6 +1241,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("coberturas/morango-350g.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1290,6 +1322,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("coberturas/pistache-1kg.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1369,6 +1403,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("coberturas/pistache-350g.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1448,6 +1484,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("coberturas/porto-blue-350g.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1529,6 +1567,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("copos/Bombom-de-Coco-semlupa.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1608,6 +1648,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("copos/Caramelo-Salgado-&-Cookies-semlupa.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1687,6 +1729,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("copos/Morango-ao-Leite-semlupa.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1766,6 +1810,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("copos/Napolicup 2023.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1845,6 +1891,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("copos/sundae Baunilha com chocotela.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -1924,6 +1972,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("copos/Sundae fruta do bosco.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2003,6 +2053,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("copos/Torta-de-Limão-semlupa.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2084,6 +2136,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("creme-speciale/Frutas vermelhas.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2163,6 +2217,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("creme-speciale/Picolé-Creme Speciale(chocolate).png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2244,6 +2300,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("diamond/Diamond chocomalt.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2323,6 +2381,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("diamond/Diamond cookies branco.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2402,6 +2462,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("diamond/Diamond Cookies.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2481,6 +2543,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("diamond/Diamond_frutas_vermelhas.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2560,6 +2624,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("diamond/Diamond_pistache.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2641,6 +2707,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("ituzinho/Chicletes.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2720,6 +2788,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("ituzinho/Leitinho trufado.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2799,6 +2869,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("ituzinho/Mockup Itu.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2880,6 +2952,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("kids/Ilustração Picolé Unicórnio.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -2959,6 +3033,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("kids/Mockup embalagem BOB Oficial.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3038,6 +3114,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("kids/Mockup embalagem PATRICK Oficial.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3119,6 +3197,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("la-sobremesa/Limonada Suica.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3198,6 +3278,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("la-sobremesa/Picole 4 leites.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3277,6 +3359,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("la-sobremesa/Picole Pudim de leite.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3358,6 +3442,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("linha-mais/Coco queimado RGB.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3437,6 +3523,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("linha-mais/mais-coco.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3518,6 +3606,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("los-palitos-mexicanos/Maracujá com leite condensado.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3597,6 +3687,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("los-palitos-mexicanos/Morango com leite condensado.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3678,6 +3770,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("moreninha/Cópia de Mockup Moreninha.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3759,6 +3853,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("picolapis/Picolé-surpresa-SEM-LUPA.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3840,6 +3936,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("picole-cremoso/chocolate.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3919,6 +4017,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("picole-cremoso/coco.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -3998,6 +4098,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("picole-cremoso/creme.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4077,6 +4179,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("picole-cremoso/doce-de-leite.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4156,6 +4260,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("picole-cremoso/leite-condensado.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4235,6 +4341,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("picole-cremoso/milho-verde.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4314,6 +4422,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("picole-cremoso/morango.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4395,6 +4505,8 @@ export const products = [
     promotionalPrice: 1.5,
     image: getImage("picole-fruta/Abacaxi.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4474,6 +4586,8 @@ export const products = [
     promotionalPrice: 1.5,
     image: getImage("picole-fruta/Brasileirinho.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4553,6 +4667,8 @@ export const products = [
     promotionalPrice: 1.5,
     image: getImage("picole-fruta/Framboesa.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4632,6 +4748,8 @@ export const products = [
     promotionalPrice: 1.5,
     image: getImage("picole-fruta/Limão.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4711,6 +4829,8 @@ export const products = [
     promotionalPrice: 1.5,
     image: getImage("picole-fruta/Maracujá.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4790,6 +4910,8 @@ export const products = [
     promotionalPrice: 1.5,
     image: getImage("picole-fruta/Minisaia.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4869,6 +4991,8 @@ export const products = [
     promotionalPrice: 1.5,
     image: getImage("picole-fruta/Morango.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -4948,6 +5072,8 @@ export const products = [
     promotionalPrice: 1.5,
     image: getImage("picole-fruta/Uva.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5029,6 +5155,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("picole-zero/chocolate.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5108,6 +5236,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("picole-zero/coco.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5189,6 +5319,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("pote-1l-zero/Beijinho.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5268,6 +5400,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("pote-1l-zero/Frutas vermelhas.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5347,6 +5481,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("pote-1l-zero/zero Açúcar Napolitano.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5428,6 +5564,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Abacaxi com coco.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5507,6 +5645,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Banana com Chocotella.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5586,6 +5726,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Brigadeiro.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5665,6 +5807,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Chocolak.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5744,6 +5888,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Chocolate Branco.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5823,6 +5969,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Chocomenta.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5902,6 +6050,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Coco Milho Verde.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -5981,6 +6131,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Creme.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6060,6 +6212,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Creme+flocos+chocolate.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6139,6 +6293,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Flocos.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6218,6 +6374,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Flocos+morango.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6291,12 +6449,14 @@ export const products = [
   },
   {
     id: 80,
-    name: "Leite Condensado Chocolate Xadrez",
+    name: "Leite Condensado Chocolate",
     category: "Potes 2L",
     price: 28.5,
     promotionalPrice: 0,
     image: getImage("potes-2l/Leite Condensado Chocolate Xadrez.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6376,6 +6536,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Leitinho Trufado.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6455,6 +6617,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Marta Rocha.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6534,6 +6698,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Morango.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6613,6 +6779,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Napolitano.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6692,6 +6860,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Nata+Uva.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6771,6 +6941,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Passas ao Rum.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6850,6 +7022,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Pote Sorvete Cereja sem fundo.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -6929,6 +7103,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Pote Sorvete Crocante.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7008,6 +7184,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Pote Sorvete Maracujá Trufado sem lupa.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7087,6 +7265,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Pote Sorvete Sensazione sem lupa.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7166,6 +7346,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Tramontaro.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7245,6 +7427,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-2l/Trufa.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7326,6 +7510,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-nevado/Banoffee Sem lupa.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7405,6 +7591,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-nevado/Iogurte Grego com Amora.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7484,6 +7672,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("potes-nevado/Nata Trufada.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7565,6 +7755,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("seletto/Brigadeiro.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7644,6 +7836,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("seletto/Crocante.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7723,6 +7917,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("seletto/Seletto pistache mockup.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7804,6 +8000,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("turma-da-monica/picole-cebolinha.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7883,6 +8081,8 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("turma-da-monica/picole-magali.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
@@ -7962,6 +8162,251 @@ export const products = [
     promotionalPrice: 0,
     image: getImage("turma-da-monica/picole-monica.png"),
     description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
+
+  nutrition: {
+    portion: {
+      amount: 58,
+      unit: "g",
+      description: "1 unidade"
+    },
+
+    values: {
+      energy: {
+        per100g: 91,
+        perPortion: 55,
+        dailyValue: 3
+      },
+
+      carbohydrates: {
+        per100g: 23,
+        perPortion: 14,
+        dailyValue: 5
+      },
+
+      totalSugars: {
+        per100g: 23,
+        perPortion: 14,
+        dailyValue: null
+      },
+
+      addedSugars: {
+        per100g: 23,
+        perPortion: 14,
+        dailyValue: 28
+      },
+
+      proteins: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      totalFat: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      saturatedFat: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      transFat: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      fiber: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      sodium: {
+        per100g: 6.8,
+        perPortion: 4.1,
+        dailyValue: 0
+      }
+    }
+  }
+  },
+  {
+    id: 102,
+    name: "Uva Zero",
+    category: "Picolé Fruta Zero",
+    price: 2.5,
+    promotionalPrice: 0,
+    image: getImage("picole-fruta-zero/Cópia de Picolé Zero Fruta - Uva 2026.png"),
+    description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
+
+  nutrition: {
+    portion: {
+      amount: 58,
+      unit: "g",
+      description: "1 unidade"
+    },
+
+    values: {
+      energy: {
+        per100g: 91,
+        perPortion: 55,
+        dailyValue: 3
+      },
+
+      carbohydrates: {
+        per100g: 23,
+        perPortion: 14,
+        dailyValue: 5
+      },
+
+      totalSugars: {
+        per100g: 23,
+        perPortion: 14,
+        dailyValue: null
+      },
+
+      addedSugars: {
+        per100g: 23,
+        perPortion: 14,
+        dailyValue: 28
+      },
+
+      proteins: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      totalFat: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      saturatedFat: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      transFat: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      fiber: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      sodium: {
+        per100g: 6.8,
+        perPortion: 4.1,
+        dailyValue: 0
+      }
+    }
+  }
+  },
+  {
+    id: 103,
+    name: "Abacaxi Zero",
+    category: "Picolé Fruta Zero",
+    price: 2.5,
+    promotionalPrice: 0,
+    image: getImage("picole-fruta-zero/Cópia de Picolé Zero Fruta - Abacaxi 2026.png"),
+    description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
+
+  nutrition: {
+    portion: {
+      amount: 58,
+      unit: "g",
+      description: "1 unidade"
+    },
+
+    values: {
+      energy: {
+        per100g: 91,
+        perPortion: 55,
+        dailyValue: 3
+      },
+
+      carbohydrates: {
+        per100g: 23,
+        perPortion: 14,
+        dailyValue: 5
+      },
+
+      totalSugars: {
+        per100g: 23,
+        perPortion: 14,
+        dailyValue: null
+      },
+
+      addedSugars: {
+        per100g: 23,
+        perPortion: 14,
+        dailyValue: 28
+      },
+
+      proteins: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      totalFat: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      saturatedFat: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      transFat: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      fiber: {
+        per100g: 0,
+        perPortion: 0,
+        dailyValue: 0
+      },
+
+      sodium: {
+        per100g: 6.8,
+        perPortion: 4.1,
+        dailyValue: 0
+      }
+    }
+  }
+  },
+  {
+    id: 104,
+    name: "Limão Zero",
+    category: "Picolé Fruta Zero",
+    price: 2.5,
+    promotionalPrice: 0,
+    image: getImage("picole-fruta-zero/Cópia de Picolé Zero Fruta - Limão 2026.png"),
+    description: "Picolé sabor artificial de framboesa. Colorido artificialmente. Aromatizado artificialmente.",
+    allergy: "CONTÉM DERIVADOS DE LEITE, DE SOJA E DA CEVADA. PODE CONTER AVELÃS, CASTANHA-DE-CAJU, TRIGO E LÁTEX NATURAL. CONTÉM LACTOSE. CONTÉM GLÚTEN.",
+    ingredients: 'água, açúcar cristal, leite em pó integral, glicose em pó, soro de leite em pó parcialmente desmineralizado, chocolate ao leite (óleo de coco, açúcar cristal, leite em pó integral, cacau em pó, aromatizantes, emulsificantes: lecitina de soja e polirricinoleato de poliglicerol, corantes: amarelo quinoleína e amarelo crepúsculo FCF), maltodextrina, gordura de palma, extrato de malte, cacau em pó, agente de textura (maltodextrina, gordura vegetal de palma, caseinato, emulsificantes: ésteres de ácidos graxos com propilenoglicol, mono e diglicerídeos de ácidos graxos, estabilizante: difosfato tetrassódico e antioxidante: mistura concentrada de tocoferóis), emulsificante: mono e diglicerídeos de ácidos graxos, estabilizantes: goma guar, goma tara, carragena e goma jataí, antiumectante: dióxido de silício, aromatizantes, corantes: caramelo IV, amarelo crepúsculo FCF, indigotina, amaranto, ponceau 4R e vermelho 40.',
 
   nutrition: {
     portion: {
