@@ -2,20 +2,24 @@ import { useState, useEffect } from 'react'
 import Header from './Header/Header'
 import {Route, Routes} from 'react-router-dom'
 import Main from './Main/Main'
-import { products } from '../utils/products'
 import CurrentCartContext from '../contexts/CurrentCartContext'
 import About from './About/About'
 import Footer from './Footer/Footer'
 import Catalog from './Catalog/Catalog'
+import api from '../utils/api'
 function App() {
   const [selectedCategories, setSelectedCategories] = useState("Todos")
   const [sideBar, setSideBar] = useState(null)
   const [popup, setPopup] = useState(null)
+  const [products, setProducts] = useState([])
+  useEffect(() => {
+    api.getProducts()
+      .then((products) => setProducts(products))
+  }, [])
   const [productQuantity, setProductQuantity] = useState(1)
   const categories = ['Todos', ...[...new Set(products.map((product) => product.category))].sort((a,b) => a.localeCompare(b, 'pt-BR'))]
   const [cart, setCart] = useState(() => {
     const savedCart = localStorage.getItem('cart');
-
     return savedCart ? JSON.parse(savedCart) : [];
   })
   useEffect(() => {
@@ -36,27 +40,30 @@ function App() {
     setProductQuantity(1);
   }
   function applyDiscount(cart) {
-    const fruitPopsicleQuantity = cart
-      .filter((item) => item.category === "Picolé Fruta")
-      .reduce((total, item) => total + item.quantity, 0);
-
-    return cart.map((item) => {
-      if (item.category === "Picolé Fruta") {
-        return {
-          ...item,
-          currentPrice:
-            fruitPopsicleQuantity >= 5
-              ? item.promotionalPrice
-              : item.price
-        };
+    return cart.map((cartItem) => {
+      if(cartItem.quantity >= cartItem.sale.quantity && cartItem.sale.quantity !== 0){
+        return { ...cartItem, currentPrice: cartItem.sale.promotionalPrice}
       }
-
-      return {
-        ...item,
-        currentPrice: item.price
-      };
-    });
+      else{
+        return { ...cartItem, currentPrice: cartItem.price}
+      }
+    })
   }
+  useEffect(() => {
+    function loadProducts() {
+      api.getProducts()
+        .then((products) => {
+          setProducts(products);
+        })
+        .catch(console.error);
+    }
+
+    loadProducts();
+
+    const interval = setInterval(loadProducts, 10000);
+
+    return () => clearInterval(interval);
+  }, []);
   function addToCart(product, Quantity) {
     setCart((currentCart) => {
       const productInCart = currentCart.find(
@@ -86,7 +93,8 @@ function App() {
       }
       setProductQuantity(1)
       setPopup(null)
-      return applyDiscount(updatedCart);
+      applyDiscount(updatedCart);
+      return updatedCart;
     });
   }
 
@@ -135,7 +143,7 @@ function App() {
 
   return (
     <>
-      <CurrentCartContext.Provider value={{cart, addToCart, removeFromCart, increaseQuantity, decreaseQuantity, productQuantity, setProductQuantity}}>
+      <CurrentCartContext.Provider value={{cart, addToCart, removeFromCart, increaseQuantity, decreaseQuantity, productQuantity, setProductQuantity, products}}>
         <div className="page">
           <Header onOpenSideBar={handleOpenSideBar} onCloseSideBar={handleCloseSideBar} sideBar={sideBar} />
           <Routes>

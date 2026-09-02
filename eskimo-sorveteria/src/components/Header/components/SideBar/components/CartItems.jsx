@@ -1,13 +1,13 @@
 import { useContext } from "react"
 import CurrentCartContext from "../../../../../contexts/CurrentCartContext"
-
+import eskimoLogo from '../../../../../images/eskimo-logo.png'
 export default function CartItems({cart}) {
     const { addToCart, removeFromCart, increaseQuantity, decreaseQuantity} = useContext(CurrentCartContext)
     return(
         <>
             <div className="cartItem">
                 <div className="cartItem__image-container">
-                    <img className="cartItem__image" src={cart.image} />
+                    <img className="cartItem__image" src={cart.image?.url || eskimoLogo} />
                 </div>
                 <div className="cartItem__info">
                     <h3 className="cartItem__name">{cart.name}</h3>

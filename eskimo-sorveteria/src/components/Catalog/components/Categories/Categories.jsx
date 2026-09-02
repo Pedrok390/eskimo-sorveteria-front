@@ -1,8 +1,9 @@
-import { useState, useEffect, useRef } from 'react'
-import { products } from '../../../../utils/products'
+import { useState, useEffect, useRef, useContext } from 'react'
+import CurrentCartContext from '../../../../contexts/CurrentCartContext'
 import ProductList from '../Categories/components/ProductList/ProductList'
 export default function Categories(props){
     const {categories, selectedCategories, setSelectedCategories, onOpen} = props
+    const {products} = useContext(CurrentCartContext)
     const [dropdown, setDropdown] = useState(false)
     const filteredCategories = selectedCategories === 'Todos' ? [...[...new Set(products.map((product) => product.category))].sort((a,b) => a.localeCompare(b, 'pt-BR'))] : [selectedCategories]
 

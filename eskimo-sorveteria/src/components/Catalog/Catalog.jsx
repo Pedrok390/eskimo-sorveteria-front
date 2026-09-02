@@ -1,7 +1,5 @@
 import Categories from './components/Categories/Categories'
-import { products } from '../../utils/products'
 import Popup from './components/Popup/Popup'
-import ProductCard from './components/Popup/components/ProductCard'
 export default function Catalog(props) {
     const {categories, selectedCategories, setSelectedCategories, onOpenPopup, onClosePopup, popup} = props
 

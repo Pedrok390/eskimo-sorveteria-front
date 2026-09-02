@@ -2,17 +2,17 @@ import { useContext } from 'react'
 import cartIcon from '../../../../../../../images/cart-icon.png'
 import CurrentCartContext from '../../../../../../../contexts/CurrentCartContext'
 import ProductCard from '../../../../Popup/components/ProductCard'
-
+import eskimoLogo from '../../../../../../../images/eskimo-logo.png'
 export default function Product(props){
     const { addToCart } = useContext(CurrentCartContext)
     const {product, onOpen} = props
-
+    console.log(product)
     const productPopup = {children: <ProductCard addToCart={addToCart} product={product} />}
     return(
         <>
             <div className="product">
                 <div className="product__image-container">
-                    <img className="product__image" src={product.image} alt={product.name}/>
+                    <img className="product__image" src={product.image?.url || eskimoLogo } alt={product.name}/>
                 </div>
                 <div className="product__info">
                     <p className="product__name">{product.name}</p>
