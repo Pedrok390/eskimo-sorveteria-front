@@ -6,6 +6,7 @@ import CurrentCartContext from '../contexts/CurrentCartContext'
 import About from './About/About'
 import Footer from './Footer/Footer'
 import Catalog from './Catalog/Catalog'
+import Login from './Login/Login'
 import api from '../utils/api'
 function App() {
   const [selectedCategories, setSelectedCategories] = useState("Todos")
@@ -16,6 +17,7 @@ function App() {
     api.getProducts()
       .then((products) => setProducts(products))
   }, [])
+  const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [productQuantity, setProductQuantity] = useState(1)
   const categories = ['Todos', ...[...new Set(products.map((product) => product.category))].sort((a,b) => a.localeCompare(b, 'pt-BR'))]
   const [cart, setCart] = useState(() => {
@@ -35,7 +37,7 @@ function App() {
   const handleOpenPopup = (popup) => {
     setPopup(popup)
   }
-  const handleCLosePopup = () => {
+  const handleClosePopup = () => {
     setPopup(null)
     setProductQuantity(1);
   }
@@ -141,9 +143,20 @@ function App() {
     });
   }
 
+  function handleCheckEmail(email){
+    return api.checkEmail(email)
+  }
+  function handleRegister(data){
+    api.signup(data)
+      .then((user) => console.log(user))
+  }
+
+  function handleSendEmail(email){
+    return api.sendEmailCode(email)
+  }
   return (
     <>
-      <CurrentCartContext.Provider value={{cart, addToCart, removeFromCart, increaseQuantity, decreaseQuantity, productQuantity, setProductQuantity, products}}>
+      <CurrentCartContext.Provider value={{cart, addToCart, removeFromCart, increaseQuantity, decreaseQuantity, productQuantity, setProductQuantity, products, isLoggedIn}}>
         <div className="page">
           <Header onOpenSideBar={handleOpenSideBar} onCloseSideBar={handleCloseSideBar} sideBar={sideBar} />
           <Routes>
@@ -155,11 +168,20 @@ function App() {
               <Catalog
                 popup={popup}
                 onOpenPopup={handleOpenPopup}
-                onClosePopup={handleCLosePopup}
+                onClosePopup={handleClosePopup}
                 categories={categories} 
                 selectedCategories={selectedCategories} 
                 setSelectedCategories={setSelectedCategories}
               />}
+            />
+            <Route path='/sign' element={
+              <Login 
+                handleCheckEmail={handleCheckEmail} 
+                handleRegister={handleRegister} 
+                handleSendEmail={handleSendEmail}
+                popup={popup}
+                onOpenPopup={handleOpenPopup}
+                onClosePopup={handleClosePopup}/>}
             />
 
           </Routes>

@@ -1,0 +1,13 @@
+.login{
+    margin: auto;
+}
+.login__check{
+    display: flex;
+    flex-direction: column;
+}
+.login__check-button{
+    background-color: red;
+}
+.login__check-button--disabled{
+    background-color: gray;
+}

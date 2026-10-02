@@ -14,7 +14,7 @@ export default function Footer() {
                     <h3 className='footer__container-title'>Endereço</h3>
                     <h3 className='footer__container-title'>Telefone para Contato</h3>
                     <h3 className='footer__container-title'>Siga-nos</h3>
-                    <p className='footer__info'>Estada do Campinho 2585 - Loja B</p>
+                    <p className='footer__info'>Estada do Campinho 2585 - Loja A e B</p>
                     <p className='footer__info'>+55 (21) 96621-9711</p>
                     <div className='footer__socials'>
                         <a href="https://instagram.com/seuinstagram" target="_blank" rel="noopener noreferrer" className="footer__social"><FaInstagram /></a>

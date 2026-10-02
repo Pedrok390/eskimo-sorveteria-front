@@ -1,12 +1,16 @@
+import {NavLink} from 'react-router-dom'
+import { useEffect, useState, useRef, useContext } from 'react';
+
 import eskimoLogo from '../../images/eskimo-logo.png'
 import cartIcon from '../../images/cart-icon.png'
-import {NavLink} from 'react-router-dom'
-import { useEffect, useState, useRef } from 'react';
+
 import SideBar from './components/SideBar/SideBar';
 import Cart from './components/SideBar/components/Cart';
 import HeaderSide from './components/SideBar/components/HeaderSide';
+import CurrentCartContext from '../../contexts/CurrentCartContext';
 
 export default function Header(props) {
+    const { isLoggedIn } = useContext(CurrentCartContext)
     const { onOpenSideBar, onCloseSideBar, sideBar } = props
     const [isFixed, setIsFixed] = useState(false);
     const [headerSide, setHeaderSide] = useState(false)
@@ -52,7 +56,11 @@ export default function Header(props) {
                     <NavLink to="/about" className={({ isActive }) => isActive ? 'header__nav-link header__nav-link--active' : 'header__nav-link'}>
                         Sobre
                     </NavLink>
-                    <button className='header__nav-cart' onClick={() => onOpenSideBar(cartSideBar)}><img src={cartIcon} className='header__nav-icon' alt='Icone de Carrinho' ></img>Carrinho</button>
+                    {isLoggedIn ? 
+                        <button>Username</button>: 
+                        <NavLink to='/sign'>Entrar</NavLink>
+                    }
+                    <button className='header__nav-cart' onClick={() => onOpenSideBar(cartSideBar)}><img src={cartIcon} className='header__nav-icon' alt='Icone de Carrinho' ></img></button>
                 </div>
             </header>
             {sideBar && <SideBar children={sideBar.children} onCloseSideBar={onCloseSideBar} />}
