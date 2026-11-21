@@ -20,6 +20,7 @@
     animation-name: sidebar;
     animation-duration: 0.6s;
     animation-iteration-count: 1;
+    position: relative;
 }
 @keyframes sidebar{
     from{
@@ -31,6 +32,7 @@
 }
 .cart__header{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid rgb(190, 190, 190);
     padding-bottom: 20px;
@@ -40,8 +42,7 @@
     overflow-y: auto;
 }
 .cart__button-close{
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 48px;
 }
 .cartItem__image-container{
     min-width: 160px;

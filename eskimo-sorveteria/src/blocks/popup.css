@@ -14,8 +14,11 @@
     position: relative;
     border-radius: 32px;
     background-color: white;
-    width: 1200px;
+    max-width: 1200px;
     padding: 32px;
+}
+.popup__title{
+    margin-bottom: 16px;
 }
 .popup__close{
     color: white;

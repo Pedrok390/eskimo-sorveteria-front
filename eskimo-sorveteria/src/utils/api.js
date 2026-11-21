@@ -52,7 +52,16 @@ class Api{
         })
         .then((res) => this._checkResponse(res))
     }
-
+    
+    getCurrentClient(token) {
+        return fetch(`${this._baseUrl}/clients/me`, {
+            method: "GET",
+            headers: {
+            "Authorization": `Bearer ${token}`
+            }
+        })
+        .then((res) => this._checkResponse(res));
+    }
     sendEmailCode(email) {
         return fetch(`${this._baseUrl}/clients/login/email/send-code`, {
             method: "POST",
@@ -76,6 +85,90 @@ class Api{
                 code: code
             })
         }).then((res) => this._checkResponse(res));
+    }
+
+    loginWithPassword(email, password) {
+        return fetch(`${this._baseUrl}/clients/login/password`, {
+            method: "POST",
+            headers: {
+            "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+            email,
+            password
+            })
+        })
+        .then((res) => this._checkResponse(res))
+    }
+    getMyOrders(token) {
+        return fetch(`${this._baseUrl}/orders/my`, {
+            headers: {
+            "Authorization": `Bearer ${token}`
+            }
+        })
+        .then((res) => this._checkResponse(res))
+    }
+    updateMyData(token, data) {
+        return fetch(`${this._baseUrl}/clients/me`, {
+            method: "PATCH",
+            headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${token}`
+            },
+            body: JSON.stringify(data)
+        })
+        .then((res) => this._checkResponse(res));
+    }
+    searchAddresses(token, text) {
+        return fetch(
+            `${this._baseUrl}/clients/addresses/search?text=${encodeURIComponent(text)}`,
+            {
+            method: "GET",
+            headers: {
+                "Authorization": `Bearer ${token}`
+            }
+            }
+        )
+        .then((res) => this._checkResponse(res));
+    }
+    addMyAddress(token, data) {
+        return fetch(`${this._baseUrl}/clients/me/addresses`, {
+            method: "POST",
+            headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${token}`
+            },
+            body: JSON.stringify(data)
+        })
+        .then((res) => this._checkResponse(res));
+        }
+
+    updateMyAddress(token, addressId, data) {
+        return fetch(
+            `${this._baseUrl}/clients/me/addresses/${addressId}`,
+            {
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${token}`
+            },
+            body: JSON.stringify(data)
+            }
+        )
+        .then((res) => this._checkResponse(res));
+        }
+
+    deleteMyAddress(token, addressId) {
+        return fetch(
+            `${this._baseUrl}/clients/me/addresses/${addressId}`,
+            {
+            method: "DELETE",
+            headers: {
+                "Authorization": `Bearer ${token}`
+            }
+            }
+        )
+        .then((res) => this._checkResponse(res));
     }
 }
 const api = new Api({

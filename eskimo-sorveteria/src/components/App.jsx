@@ -1,8 +1,14 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import Header from './Header/Header'
-import {Route, Routes} from 'react-router-dom'
+import {Route, Routes, useLocation} from 'react-router-dom'
 import Main from './Main/Main'
 import CurrentCartContext from '../contexts/CurrentCartContext'
+import { Navigate } from "react-router-dom"
+import Account from "./Account/components/Account"
+import AccountRoute from "./Account/components/AccountRoute"
+import AccountData from "./Account/components/AccountData"
+import AccountAddresses from "./Account/components/AccountAddresses"
+import AccountOrders from "./Account/components/AccountOrders"
 import About from './About/About'
 import Footer from './Footer/Footer'
 import Catalog from './Catalog/Catalog'
@@ -17,17 +23,81 @@ function App() {
     api.getProducts()
       .then((products) => setProducts(products))
   }, [])
-  const [isLoggedIn, setIsLoggedIn] = useState(false)
+
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [currentClient, setCurrentClient] = useState(null);
+  const [isCheckingAuth, setIsCheckingAuth] = useState(
+    () => Boolean(localStorage.getItem("customerToken"))
+  );
+
   const [productQuantity, setProductQuantity] = useState(1)
   const categories = ['Todos', ...[...new Set(products.map((product) => product.category))].sort((a,b) => a.localeCompare(b, 'pt-BR'))]
   const [cart, setCart] = useState(() => {
     const savedCart = localStorage.getItem('cart');
     return savedCart ? JSON.parse(savedCart) : [];
   })
+
+  const location = useLocation()
+
+  const [orders, setOrders] = useState([])
+  const [ordersLoading, setOrdersLoading] = useState(false)
+  const [ordersError, setOrdersError] = useState("")
+
   useEffect(() => {
       localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
+  useEffect(() => {
+    const token = localStorage.getItem("customerToken");
 
+    if (!token) {
+      setIsCheckingAuth(false);
+      return;
+    }
+
+    let cancelled = false;
+
+    api.getCurrentClient(token)
+      .then((client) => {
+        if (
+          cancelled ||
+          localStorage.getItem("customerToken") !== token
+        ) {
+          return;
+        }
+
+        setCurrentClient(client);
+        setIsLoggedIn(true);
+      })
+      .catch((error) => {
+        if (
+          cancelled ||
+          localStorage.getItem("customerToken") !== token
+        ) {
+          return;
+        }
+
+        if (error.status === 401 || error.status === 403) {
+          localStorage.removeItem("customerToken");
+        } else {
+          console.error(
+            "Não foi possível validar a sessão:",
+            error
+          );
+        }
+
+        setCurrentClient(null);
+        setIsLoggedIn(false);
+      })
+      .finally(() => {
+        if (!cancelled) {
+          setIsCheckingAuth(false);
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
   const handleCloseSideBar = () => {
     setSideBar(null)
   }
@@ -66,6 +136,64 @@ function App() {
 
     return () => clearInterval(interval);
   }, []);
+  useEffect(() => {
+    if (
+      !isLoggedIn ||
+      location.pathname !== "/minha-conta/pedidos"
+    ) {
+      return
+    }
+
+    const token = localStorage.getItem("customerToken")
+
+    if (!token) {
+      return
+    }
+
+    let cancelled = false
+
+    setOrdersLoading(true)
+    setOrdersError("")
+
+    api.getMyOrders(token)
+      .then((data) => {
+        if (!cancelled) {
+          setOrders(data)
+        }
+      })
+      .catch((err) => {
+        if (!cancelled) {
+          setOrdersError(err.message)
+        }
+      })
+      .finally(() => {
+        if (!cancelled) {
+          setOrdersLoading(false)
+        }
+      })
+
+    return () => {
+      cancelled = true
+    }
+  }, [isLoggedIn, location.pathname])
+
+  function handleCustomerSession(response) {
+    if (!response?.token) {
+      throw new Error("Token não recebido do servidor");
+    }
+
+    const token = response.token;
+
+    return api.getCurrentClient(token)
+      .then((client) => {
+        localStorage.setItem("customerToken", token);
+
+        setCurrentClient(client);
+        setIsLoggedIn(true);
+
+        return client;
+      });
+  }
   function addToCart(product, Quantity) {
     setCart((currentCart) => {
       const productInCart = currentCart.find(
@@ -146,19 +274,99 @@ function App() {
   function handleCheckEmail(email){
     return api.checkEmail(email)
   }
+  function handleVerifyEmailCode(email, code){
+    return api.verifyEmailCode(email, code)
+      .then((user) => {
+
+      })
+  }
   function handleRegister(data){
-    api.signup(data)
-      .then((user) => console.log(user))
+    return api.signup(data)
+  }
+  function handleVerifyCode(email, code) {
+    return api.verifyEmailCode(email, code)
+      .then(handleCustomerSession)
   }
 
+  function handleLoginPassword(email, password) {
+    return api.loginWithPassword(email, password)
+      .then(handleCustomerSession)
+  }
+
+  function handleClientMutation(request) {
+    const token = localStorage.getItem("customerToken");
+
+    if (!token) {
+      return Promise.reject(
+        new Error("Faça login novamente")
+      );
+    }
+
+    return request(token)
+      .then((updatedClient) => {
+        if (localStorage.getItem("customerToken") !== token) {
+          throw new Error("A sessão foi alterada");
+        }
+
+        setCurrentClient(updatedClient);
+
+        return updatedClient;
+      });
+  }
+
+  function handleUpdateMyData(data) {
+    return handleClientMutation((token) =>
+      api.updateMyData(token, data)
+    );
+  }
+
+  function handleAddMyAddress(data) {
+    return handleClientMutation((token) =>
+      api.addMyAddress(token, data)
+    );
+  }
+
+  function handleUpdateMyAddress(addressId, data) {
+    return handleClientMutation((token) =>
+      api.updateMyAddress(token, addressId, data)
+    );
+  }
+
+  function handleDeleteMyAddress(addressId) {
+    return handleClientMutation((token) =>
+      api.deleteMyAddress(token, addressId)
+    );
+  }
+  const handleSearchAddresses = useCallback((text) => {
+    const token = localStorage.getItem("customerToken");
+
+    if (!token) {
+      return Promise.reject(
+        new Error("Faça login para pesquisar endereços")
+      );
+    }
+
+    return api.searchAddresses(token, text);
+  }, []);
+  function handleLogout() {
+    localStorage.removeItem("customerToken")
+
+    setCurrentClient(null)
+    setIsLoggedIn(false)
+    setIsCheckingAuth(false)
+
+    setOrders([])
+    setOrdersError("")
+    setOrdersLoading(false)
+  }
   function handleSendEmail(email){
     return api.sendEmailCode(email)
   }
   return (
     <>
-      <CurrentCartContext.Provider value={{cart, addToCart, removeFromCart, increaseQuantity, decreaseQuantity, productQuantity, setProductQuantity, products, isLoggedIn}}>
+      <CurrentCartContext.Provider value={{cart, addToCart, removeFromCart, increaseQuantity, decreaseQuantity, productQuantity, setProductQuantity, products, isLoggedIn, currentClient, isCheckingAuth}}>
         <div className="page">
-          <Header onOpenSideBar={handleOpenSideBar} onCloseSideBar={handleCloseSideBar} sideBar={sideBar} />
+          <Header onOpenSideBar={handleOpenSideBar} onCloseSideBar={handleCloseSideBar} sideBar={sideBar} onLogout={handleLogout} />
           <Routes>
             <Route path="/" element={
               <Main />
@@ -179,11 +387,40 @@ function App() {
                 handleCheckEmail={handleCheckEmail} 
                 handleRegister={handleRegister} 
                 handleSendEmail={handleSendEmail}
+                handleVerifyCode={handleVerifyCode}
+                handleLoginPassword={handleLoginPassword}
                 popup={popup}
                 onOpenPopup={handleOpenPopup}
                 onClosePopup={handleClosePopup}/>}
             />
+            <Route path="/minha-conta" element={<AccountRoute />}>
+              <Route element={<Account onLogout={handleLogout}/>} >
+                <Route
+                  index
+                  element={<Navigate to="dados" replace />}
+                />
 
+                <Route
+                  path="dados"
+                  element={<AccountData 
+                            client={currentClient}
+                            onSave={handleUpdateMyData}/>}
+                />
+
+                <Route
+                  path="enderecos"
+                  element={<AccountAddresses addresses={currentClient?.addresses || []} onSearch={handleSearchAddresses} onAdd={handleAddMyAddress} onUpdate={handleUpdateMyAddress} onDelete={handleDeleteMyAddress}/>}
+                />
+
+                <Route
+                  path="pedidos"
+                  element={<AccountOrders
+                              orders={orders}
+                              loading={ordersLoading}
+                              error={ordersError} />}
+                />
+              </Route>
+            </Route>
           </Routes>
           <Footer />
         </div>

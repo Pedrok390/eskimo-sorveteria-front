@@ -41,7 +41,7 @@ export default function Cart({onCloseSideBar}) {
         <>
             <div className="cart__header">
                 <h2 className="cart__header-title">Seu carrinho</h2>
-                <button className="cart__button-close" onClick={() => onCloseSideBar()}>X</button>
+                <button className="cart__button-close" onClick={() => onCloseSideBar()}>×</button>
             </div>
             <div className="cart">
                 {cart.map((cart) => (
