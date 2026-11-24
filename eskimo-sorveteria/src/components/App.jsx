@@ -14,15 +14,17 @@ import Footer from './Footer/Footer'
 import Catalog from './Catalog/Catalog'
 import Login from './Login/Login'
 import api from '../utils/api'
+
+const cartStorageKey = `cart-v2:${storeId}`
+const storeId = import.meta.env.VITE_STORE_ID
+
 function App() {
   const [selectedCategories, setSelectedCategories] = useState("Todos")
   const [sideBar, setSideBar] = useState(null)
   const [popup, setPopup] = useState(null)
   const [products, setProducts] = useState([])
-  useEffect(() => {
-    api.getProducts()
-      .then((products) => setProducts(products))
-  }, [])
+  const [productsLoading, setProductsLoading] = useState(true)
+  const [productsError, setProductsError] = useState("")
 
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [currentClient, setCurrentClient] = useState(null);
@@ -43,6 +45,63 @@ function App() {
   const [ordersLoading, setOrdersLoading] = useState(false)
   const [ordersError, setOrdersError] = useState("")
 
+  useEffect(() => {
+    let active = true
+    let timeout
+
+    function loadProducts() {
+        api.getStoreCatalog(storeId)
+            .then((data) => {
+                if (!active) {
+                    return
+                }
+
+                const products = data.map((product) => ({
+                    ...product,
+
+                    // Compatibilidade temporária
+                    // com o carrinho antigo
+                    id: product._id,
+
+                    sale: {
+                        quantity: 0,
+                        promotionalPrice: null
+                    }
+                }))
+
+                setProducts(products)
+                setProductsError("")
+            })
+            .catch((err) => {
+                if (active) {
+                    setProductsError(err.message)
+                }
+            })
+            .finally(() => {
+                if (active) {
+                    setProductsLoading(false)
+
+                    timeout = setTimeout(
+                        loadProducts,
+                        60000
+                    )
+                }
+            })
+    }
+
+    if (!storeId) {
+        setProductsError("Loja não configurada")
+        setProductsLoading(false)
+        return
+    }
+
+    loadProducts()
+
+    return () => {
+        active = false
+        clearTimeout(timeout)
+    }
+  }, [])
   useEffect(() => {
       localStorage.setItem("cart", JSON.stringify(cart));
   }, [cart]);
@@ -122,21 +181,6 @@ function App() {
     })
   }
   useEffect(() => {
-    function loadProducts() {
-      api.getProducts()
-        .then((products) => {
-          setProducts(products);
-        })
-        .catch(console.error);
-    }
-
-    loadProducts();
-
-    const interval = setInterval(loadProducts, 10000);
-
-    return () => clearInterval(interval);
-  }, []);
-  useEffect(() => {
     if (
       !isLoggedIn ||
       location.pathname !== "/minha-conta/pedidos"
@@ -194,83 +238,78 @@ function App() {
         return client;
       });
   }
-  function addToCart(product, Quantity) {
-    setCart((currentCart) => {
-      const productInCart = currentCart.find(
-        (item) => item.id === product.id
-      );
+  function addToCart(product, quantity) {
+      const productId = product._id
 
-      let updatedCart;
-
-      if (productInCart) {
-        updatedCart = currentCart.map((item) =>
-          item.id === product.id
-            ? {
-                ...item,
-                quantity: item.quantity + Quantity
-              }
-            : item
-        );
-      } else {
-        updatedCart = [
-          ...currentCart,
-          {
-            ...product,
-            quantity: Quantity,
-            currentPrice: product.price
-          }
-        ];
+      if (
+          !productId ||
+          !Number.isInteger(quantity) ||
+          quantity <= 0
+      ) {
+          return
       }
+
+      setCart((currentCart) => {
+          const existingItem = currentCart.find(
+              (item) => item.productId === productId
+          )
+
+          if (existingItem) {
+              return currentCart.map((item) =>
+                  item.productId === productId
+                      ? {
+                          ...item,
+                          quantity: item.quantity + quantity
+                      }
+                      : item
+              )
+          }
+
+          return [
+              ...currentCart,
+              { productId, quantity }
+          ]
+      })
+
       setProductQuantity(1)
       setPopup(null)
-      applyDiscount(updatedCart);
-      return updatedCart;
-    });
   }
 
   function removeFromCart(productId) {
-    setCart((currentCart) => {
-      const updatedCart = currentCart.filter(
-        (item) => item.id !== productId
-      );
-
-      return applyDiscount(updatedCart);
-    });
+      setCart((currentCart) =>
+          currentCart.filter(
+              (item) => item.productId !== productId
+          )
+      )
   }
 
   function increaseQuantity(productId) {
-    setCart((currentCart) => {
-      const updatedCart = currentCart.map((item) =>
-        item.id === productId
-          ? {
-              ...item,
-              quantity: item.quantity + 1
-            }
-          : item
-      );
-
-      return applyDiscount(updatedCart);
-    });
+      setCart((currentCart) =>
+          currentCart.map((item) =>
+              item.productId === productId
+                  ? {
+                      ...item,
+                      quantity: item.quantity + 1
+                  }
+                  : item
+          )
+      )
   }
-
 
   function decreaseQuantity(productId) {
-    setCart((currentCart) => {
-      const updatedCart = currentCart
-        .map((item) =>
-          item.id === productId
-            ? {
-                ...item,
-                quantity: item.quantity - 1
-              }
-            : item
-        )
-        .filter((item) => item.quantity > 0);
-
-      return applyDiscount(updatedCart);
-    });
+      setCart((currentCart) =>
+          currentCart
+              .map((item) =>
+                  item.productId === productId
+                      ? {
+                          ...item,
+                          quantity: item.quantity - 1
+                      }
+                      : item
+              )
+              .filter((item) => item.quantity > 0)
+      )
   }
-
   function handleCheckEmail(email){
     return api.checkEmail(email)
   }
@@ -364,7 +403,7 @@ function App() {
   }
   return (
     <>
-      <CurrentCartContext.Provider value={{cart, addToCart, removeFromCart, increaseQuantity, decreaseQuantity, productQuantity, setProductQuantity, products, isLoggedIn, currentClient, isCheckingAuth}}>
+      <CurrentCartContext.Provider value={{cart, addToCart, removeFromCart, increaseQuantity, decreaseQuantity, productQuantity, setProductQuantity, products, productsLoading, productsError, storeId, isLoggedIn, currentClient, isCheckingAuth}}>
         <div className="page">
           <Header onOpenSideBar={handleOpenSideBar} onCloseSideBar={handleCloseSideBar} sideBar={sideBar} onLogout={handleLogout} />
           <Routes>

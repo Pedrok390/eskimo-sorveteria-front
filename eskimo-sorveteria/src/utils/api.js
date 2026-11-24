@@ -17,12 +17,32 @@ class Api{
         );
         });
     }
-
+    calculateCart(storeId, items) {
+        return fetch(
+            `${this._baseUrl}/cart/online/calculate`,
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    storeId,
+                    items
+                })
+            }
+        )
+        .then((res) => this._checkResponse(res));
+    }
     getProducts(){
         return fetch(`${this._baseUrl}/products`)
         .then((res) => this._checkResponse(res));
     }
-
+    getStoreCatalog(storeId) {
+        return fetch(
+            `${this._baseUrl}/stores/${encodeURIComponent(storeId)}/catalog`
+        )
+        .then((res) => this._checkResponse(res));
+    }
     checkEmail(email){
         return fetch(`${this._baseUrl}/clients`,{
             method: 'POST',
